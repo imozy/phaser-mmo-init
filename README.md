@@ -6,13 +6,15 @@ A basic game made with Phaser.
 A web server is required to run this project.  
 You can use any web technologies you like to serve your HTTP server.
 
-Easy set-up guide using http-server.
+Sample set-up guide using http-server.
 
-1. Install http-server  
+1. Download or clone the [this repository](https://github.com/yang01095/phaser-mmo-init) from github and install the [LTS version of Node.js](https://nodejs.org/en/), if needed.
+
+1. Install http-server:  
    `$ npm install http-server -g`
 
-2. Start server  
-   `$ cd PROJECT/PATH>`  
+2. Navigate into the phaser-mmo-init directory and start the server:  
+   `$ cd PROJECT/PATH/phaser-mmo-init`  
    `$ http-server`
 
 3. Open browser and go to `localhost:8080/index.html`
